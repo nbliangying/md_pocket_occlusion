@@ -5,9 +5,9 @@
 #original code written by Matthew Baumgartner
 #1-11-16
 
-Copyright 2016 Nicolas A Pabon, Matthew Baumgartner
+#Copyright 2016 Nicolas A Pabon, Matthew Baumgartner
 
-This program is distributed under the terms of the GNU General Public Lincense v3.0
+#This program is distributed under the terms of the GNU General Public Lincense v3.0
 
 
 
