@@ -17,16 +17,16 @@ md_pocket_occlusion.py [-h] [-s RESIDUES] [-l FRAME_LIST] [-ot OUTTEXT]
                        [-o OUTFILE] [-start START] [-end END] [--redo]
 
 
-optional arguments:
-  -h, --help     show this help message and exit
-  -s RESIDUES    residues to check overlap of
-  -l FRAME_LIST  list of frames 
-  -ot OUTTEXT    output text file
-  -o OUTFILE     output pdb file
-  -start START   optional, choose a starting from to start at
-  -end END       optional, choose a starting from to end at
+optional arguments:<br>
+  -h, --help     show this help message and exit <br>
+  -s RESIDUES    residues to check overlap of <br>
+  -l FRAME_LIST  list of frames <br>
+  -ot OUTTEXT    output text file <br>
+  -o OUTFILE     output pdb file <br>
+  -start START   optional, choose a starting from to start at <br>
+  -end END       optional, choose a starting from to end at <br>
   --redo         If specified, ignore any saved results and recompute
-                 (Default: False)
+                 (Default: False) <br>
 
 
 INPUT
