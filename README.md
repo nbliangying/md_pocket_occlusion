@@ -33,7 +33,7 @@ INPUT
 
 RESIDUES - The PDB file containing the buried ligand atoms that define the binding pocket. Each atom in this file will have it's overlap computed as a proxy measure of pocket occlusion.
 
-RRAME_LIST - A text file listing the MD frame files that will be used in overlap calculations. Each frame must be saved as a separate PDB file and its path must be listed on it's own line in the FRAME_LIST file. EX:
+FRRAME_LIST - A text file listing the MD frame files that will be used in overlap calculations. Each frame must be saved as a separate PDB file and its path must be listed on it's own line in the FRAME_LIST file. EX:
 
     /path/to/frame1.pdb
     /path/to/frame2.pdb
