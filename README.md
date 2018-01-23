@@ -1,4 +1,4 @@
-md_pocket_occlusion
+# md_pocket_occlusion
 
 Copyright 2016 Nicolas A Pabon, Matthew Baumgartner
 
@@ -6,12 +6,12 @@ This program is distributed under the terms of the GNU General Public Lincense v
 
 
 
-SYNOPSIS
+## SYNOPSIS
 
 md_pocket_occlusion.py is a Python script written to measure the occlusion of a particular binding pocket on a protein interface in an MD simulation of the protein. The pocket location and volume are defined by a set of atoms in PDB format that the user uploads separately, which, in practice, would be the atoms of the bound ligand that bury themselves in the pocket. 
 
 
-USAGE
+## USAGE
 
 md_pocket_occlusion.py [-h] [-s RESIDUES] [-l FRAME_LIST] [-ot OUTTEXT]
                        [-o OUTFILE] [-start START] [-end END] [--redo]
@@ -29,7 +29,7 @@ optional arguments:<br>
                  (Default: False) <br>
 
 
-INPUT
+## INPUT
 
 RESIDUES - The PDB file containing the buried ligand atoms that define the binding pocket. Each atom in this file will have it's overlap computed as a proxy measure of pocket occlusion.
 
@@ -40,7 +40,7 @@ FRRAME_LIST - A text file listing the MD frame files that will be used in overla
     /path/to/frame3/pdb
     ...
 
-OUTPUT
+## OUTPUT
 
 OUTTEXT - A text log file listing which atoms of reference RESIDUES are overlapped in each MD frame. The file is setup as a large table with rows representing the MD frames and columns representing the atoms in reference RESIDUES. The entries in the table correspond to the residue number of the MD atoms that overlapped the given reference atom in the given frame. Entries of 0 indicate that the reference atom was not overlapped.
 
