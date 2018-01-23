@@ -1,4 +1,4 @@
-# md_pocket_occlusion
+# MD Pocket Occlusion
 
 Copyright 2016 Nicolas A Pabon, Matthew Baumgartner
 
