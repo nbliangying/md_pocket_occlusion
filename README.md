@@ -10,6 +10,7 @@ This program is distributed under the terms of the GNU General Public Lincense v
 
 md_pocket_occlusion.py is a Python script written to measure the occlusion of a particular binding pocket on a protein interface in an MD simulation of the protein. The pocket location and volume are defined by a set of atoms in PDB format that the user uploads separately, which, in practice, would be the atoms of the bound ligand that bury themselves in the pocket. 
 
+This code was published as part of a computational study of the binding dynamics of the human PD-1 receptor: https://elifesciences.org/articles/22889
 
 ## USAGE
 
